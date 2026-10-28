@@ -53,7 +53,7 @@ transaction and submit it to the Pi Blockchain.
 Pi.createPayment({
   // Amount of π to be paid:
   amount: 3.14,
-  // An explanation of the payment - will be shown to the user:
+  // An explanation of the payment - will be shown to the user:@
   memo: "...", // e.g: "Digital kitten #1234",
   // An arbitrary developer-provided metadata object - for your own usage:
   metadata: { /* ... */ }, // e.g: { kittenId: 1234 }
