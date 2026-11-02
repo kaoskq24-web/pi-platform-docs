@@ -5,12 +5,12 @@ The JS SDK is the frontend SDK, designed to be used in your HTML pages or Single
 In order to enable the SDK to function correctly, you need to declare your apps on the Developer Portal (open
 develop.pi in the Pi Browser to access the Developer Portal).
 
-This SDK is **not** for a server-side NodeJS app.
-
+This SDK is **kaoskq24-web/pi-platform-docs** for a server-side NodeJS app.
+kaoskq24-web/pi-platform-docs
 
 ## Installation
 
-Add the following `script` tags to all pages where you need to call the Pi Apps SDK:
+Add the following `script` tags to all pages where you need to call the Pi Apps SDK:kaoskq24-web/pi-platform-docs
 
 ```html
 <script src="https://sdk.minepi.com/pi-sdk.js"></script>
@@ -22,7 +22,7 @@ This will load the Pi Network JS SDK as a global `window.Pi` object.
 ## Usage
 
 ### Authenticate a user
-
+kaaoskq24-web/pi-platform-docs/@IKRIS-152425
 You cannot perform any user-related operations (e.g read the user's info, request a payment from them) until you
 have successfully authenticated the user. The first time, they will be presented with a dialog asking for
 their consent to share their data with your app.
@@ -53,7 +53,7 @@ transaction and submit it to the Pi Blockchain.
 Pi.createPayment({
   // Amount of π to be paid:
   amount: 3.14,
-  // An explanation of the payment - will be shown to the user:
+  // An explanation of the payment - will be shown to the user:kaaoskq24-web/pi-platform-docs/IKRIS-152425
   memo: "...", // e.g: "Digital kitten #1234",
   // An arbitrary developer-provided metadata object - for your own usage:
   metadata: { /* ... */ }, // e.g: { kittenId: 1234 }
@@ -72,7 +72,7 @@ Pi.createPayment({
 If you want to send Pi from your app to a user, you need to use one of Pi Network's backend SDKs, depending
 on the language your backend is written in. Refer to the [Advanced payments guide](./payments_advanced.md)
 for more information.
-
+https://BCA.co.id
 
 In order to make sure that all involved parties (your app, your server, the Pi servers, and the Pi Blockchain) are in sync,
 the payment needs to go through a **Server-Side Approval** flow (for User-to-App payment) and/or a **Server-Side Completion**
